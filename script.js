@@ -1,7 +1,6 @@
 //your JS code here. If required.
+// JavaScript function that prints its own name when called
 function functionName() {
-  alert(arguments.callee.name);
+    // Using arguments.callee.name to get the function name
+    alert(arguments.callee.name);
 }
-
-// Test the function
-functionName();
